@@ -40,4 +40,4 @@ This will provide you all the data related with your detected active interfaces 
 
 -   -   `netsense.sh -s check`This will provide `name | IP | Broadcast | Mac Address` of the **active interfaces which is able to detect** (yours)
 
-![Picture](https://github.com/0utl4nder/myip/blob/main/myip.png?raw=true)
+![Picture](https://github.com/0utl4nder/netsense/blob/main/picture.png?raw=true)
