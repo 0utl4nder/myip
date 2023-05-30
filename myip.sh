@@ -14,7 +14,7 @@ err=()
 commas=0
 
 function Help() {
-  echo -e "${CYAN} Script version 1.1 | by @0utl4nder | https://github.com/0utl4nder/myip ${NC}"
+  echo -e "${CYAN} Script version 1.2 | by @0utl4nder | https://github.com/0utl4nder/myip ${NC}"
   echo -e "${RED}This version is not able to run -l and -s at once. eg.'$0 -s wlan0,eth0 -l 1.1.1.1,9.9.9.9'${NC}"
   echo -e "${ALT_BLUE}Usage: $0 [option] [value]${NC}"
   echo -e "${PURPLE}+ Example:  ${NC}${CYAN}'$0 -l 8.8.8.8,1.1.1.1'  '$0 -s eth0,wlo1'${NC}"
@@ -94,7 +94,7 @@ function Self_Data() {
 }
 
 function Local_Data() {
-
+  Dependencies
   if [[ $1 == 'check' ]]; then
     echo -e "${BLUE}-[i]${NC} ${ALT_BLUE}Public Data from detected IP $ip ${NC}"
     local response=$(curl -s "http://ip-api.com/json/$ip")
