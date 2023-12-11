@@ -2,8 +2,6 @@
 
 ### This script automates the Local IP's and Private interfaces, data recolection
 
-> _[invite me a coffee](https://www.paypal.com/donate/?hosted_button_id=9GUQPSB3SH63W)_
-
 ## Usage
 
 > `-a check`
